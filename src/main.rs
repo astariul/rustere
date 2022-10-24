@@ -1,6 +1,5 @@
-use std::io;
 use rustere::is_odd;
-
+use std::io;
 
 fn main() {
     let guess_nb: usize;

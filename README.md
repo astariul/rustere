@@ -1,0 +1,2 @@
+# rustere
+Rust template repository

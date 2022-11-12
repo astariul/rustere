@@ -1,3 +1,11 @@
+//! `rustere` stands for Rust Template Repository. It's a Github template
+//! repository, which is easy to duplicate and useful to get started, with a
+//! fully featured repository.
+//! Check it out there : [astariul/rustere](https://github.com/astariul/rustere)
+//!
+//! This crate doesn't contain any useful code, just some dummy code for the
+//! sake of the crate.
+
 /// Checks if a number is odd or not. Returns `True` if the number is odd (1,
 /// 3, 5, ...) and `False` if the number is even (0, 2, 4, ...).
 ///

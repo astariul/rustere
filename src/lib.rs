@@ -1,3 +1,18 @@
+/// Checks if a number is odd or not. Returns `True` if the number is odd (1,
+/// 3, 5, ...) and `False` if the number is even (0, 2, 4, ...).
+///
+/// # Examples
+/// ```
+/// assert!(rustere::is_odd(79));
+/// ```
+///
+/// ```
+/// assert!(!rustere::is_odd(88));
+/// ```
+///
+/// # Notes
+/// This is just a dummy function, to have _some_ code inside this template
+/// repository. Nothing else.
 pub fn is_odd(x: usize) -> bool {
     x % 2 == 1
 }

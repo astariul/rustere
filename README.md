@@ -30,7 +30,7 @@ It's just a template repository for Rust, with the following features :
   * Unit-tests
 * 📝 Issues & PR templates
 * 🤖 Stale bot & Dependabot
-* 🚀 Releases automatically published to `crates.io`
+* 🚀 Releases automatically published to [crates.io](https://crates.io/)
 
 
 <h2 align="center">Install</h2>

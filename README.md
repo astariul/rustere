@@ -30,7 +30,7 @@ It's just a template repository for Rust, with the following features :
   * Unit-tests
 * 📝 Issues & PR templates
 * 🤖 Stale bot & Dependabot
-* 🚀 Releases automatically published to Crates.io
+* 🚀 Releases automatically published to `crates.io`
 
 
 <h2 align="center">Install</h2>
@@ -69,14 +69,14 @@ Then replace the content in your freshly created repository, with your own packa
 Here is an exhaustive list of things to do :
 
 * **Add your content** :
-  * **Change `cargo.toml`** : Replace the name of the package, the version, and the description.
-  * **Replace `README.md`** : You can keep the same README outline, but you must update the core content to fit what you're building. Make sure to replace any occurence of `astariul` with your own username, and replace any occurence of `rustere` with the name of your package.
-  * **Add your code** : Erase the content of `src/main.rs` and `src/lib.rs` and put your own code.
-  * **Replace the tests** : Replace the content of `tests/integration_tests.rs` with actual tests.
-  * **Update names and links in `.github/` folder** :
+  1. **Change `cargo.toml`** : Replace the name of the package, the version, and the description.
+  2. **Replace `README.md`** : You can keep the same README outline, but you must update the core content to fit what you're building. Make sure to replace any occurence of `astariul` with your own username, and replace any occurence of `rustere` with the name of your package.
+  3. **Add your code** : Erase the content of `src/main.rs` and `src/lib.rs` and put your own code.
+  4. **Replace the tests** : Replace the content of `tests/integration_tests.rs` with actual tests.
+  5. **Update names and links in `.github/` folder** :
     * In `.github/ISSUE_TEMPLATE/bug.yaml`, replace `rustere` with the name of your package.
     * In `.github/ISSUE_TEMPLATE/config.yml`, replace `astariul/rustere` by your own `<user>/<repo>`.
-  * Optionally, if there are some features you don't want (like Github action that automatically release your code to `crates.io`), you can remove it !
+  6. Optionally, if there are some features you don't want (like Github action that automatically release your code to `crates.io`), you can remove it !
 * **Enable Dependabot** : From the Github website, on your repository page, you can enable [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates#enabling-or-disabling-dependabot-security-updates-for-an-individual-repository) by going to the `Settings` tab of your repository, then in the `Security & analysis` section you can enable `Dependabot alerts` and `Dependabot security updates`.
 * **Add your `crates.io` API token** : The Github action that automatically publish your package to `crates.io` requires your [API token](https://crates.io/settings/tokens). You can store this API token in a [Github secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets).  
 To do this, go to the `Settings` tab of your Github repository, then go to the `Secrets` section, and click the button `New repository secret`.  

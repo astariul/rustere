@@ -69,7 +69,7 @@ Then replace the content in your freshly created repository, with your own packa
 Here is an exhaustive list of things to do :
 
 * **Add your content** :
-  * **Change `cargo.toml`** : Replace the name of the package, the version, and the description.
+  * **Change `cargo.toml`** : Replace the name of the package, the version, the author, the description, and the homepage.
   * **Replace `README.md`** : You can keep the same README outline, but you must update the core content to fit what you're building. Make sure to replace any occurence of `astariul` with your own username, and replace any occurence of `rustere` with the name of your package.
   * **Add your code** : Erase the content of `src/main.rs` and `src/lib.rs` and put your own code.
   * **Replace the tests** : Replace the content of `tests/integration_tests.rs` with actual tests.

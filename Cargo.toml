@@ -1,9 +1,11 @@
 [package]
 name = "rustere"
-version = "0.3.0-dev"
+version = "0.3.0"
+authors = ["Astariul <remondnicola@gmail.com>"]
 description = "Rust template repository"
 edition = "2021"
 license = "MIT"
+homepage = "https://www.github.com/astariul/rustere"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
